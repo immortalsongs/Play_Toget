@@ -36,6 +36,11 @@ public class BallColider : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //rb.AddForce(Vector2.up*500);
+        if (collision.gameObject.tag == "death")
+        {
+            GameManagerAd.gm.Die();
+            transform.position = new Vector3(-2.17f, -0.95f, 0);
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)

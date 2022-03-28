@@ -6,6 +6,7 @@ TagManager:
   tags:
   - red goal
   - green goal
+  - death
   layers:
   - Default
   - TransparentFX

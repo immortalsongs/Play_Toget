@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameScene : MonoBehaviour
 {
 
-    public Text txtLives, txtTime;
+    public Text txtLives, txtTime, txtScore;
     public static GameScene intance;
 
     // Start is called before the first frame update
@@ -36,6 +36,12 @@ public class GameScene : MonoBehaviour
     {
         txtLives.text = "Lives left: " +lives.ToString();
     }
+
+    public void ShowScore(int score)
+    {
+        txtScore.text = "Score: " + score.ToString();
+    }
+
     public void ShowTime(float time)
     {
         float minute = Mathf.FloorToInt(time / 60);

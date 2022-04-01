@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6611291124975838060}
   m_Layer: 0
   m_Name: ui_ground_block@3x (12)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 6611291125170114048}
   m_Layer: 0
   m_Name: ui_ground_block@3x (11)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 6611291125204165123}
   m_Layer: 0
   m_Name: ui_ground_block@3x (6)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 6611291125206396696}
   m_Layer: 0
   m_Name: ui_ground_block@3x (3)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -449,7 +449,7 @@ GameObject:
   - component: {fileID: 6611291125213045134}
   m_Layer: 0
   m_Name: ui_ground_block@3x (4)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -558,7 +558,7 @@ GameObject:
   - component: {fileID: 6611291125356767755}
   m_Layer: 0
   m_Name: ui_ground_block@3x (14)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -667,7 +667,7 @@ GameObject:
   - component: {fileID: 6611291125367807974}
   m_Layer: 0
   m_Name: ui_ground_block@3x (1)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -776,7 +776,7 @@ GameObject:
   - component: {fileID: 6611291125438986661}
   m_Layer: 0
   m_Name: ui_ground_block@3x (7)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -885,7 +885,7 @@ GameObject:
   - component: {fileID: 6611291125840382727}
   m_Layer: 0
   m_Name: ui_ground_block@3x (15)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -994,7 +994,7 @@ GameObject:
   - component: {fileID: 6611291125848934939}
   m_Layer: 0
   m_Name: ui_ground_block@3x (18)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1103,7 +1103,7 @@ GameObject:
   - component: {fileID: 6611291125992077371}
   m_Layer: 0
   m_Name: ui_ground_block@3x (17)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1212,7 +1212,7 @@ GameObject:
   - component: {fileID: 6611291126030977055}
   m_Layer: 0
   m_Name: ui_ground_block@3x (2)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1321,7 +1321,7 @@ GameObject:
   - component: {fileID: 6611291126101552818}
   m_Layer: 0
   m_Name: ui_ground_block@3x (8)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1478,7 +1478,7 @@ GameObject:
   - component: {fileID: 6611291126142983493}
   m_Layer: 0
   m_Name: ui_ground_block@3x (9)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1587,7 +1587,7 @@ GameObject:
   - component: {fileID: 6611291126370971637}
   m_Layer: 0
   m_Name: ui_ground_block@3x (5)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1696,7 +1696,7 @@ GameObject:
   - component: {fileID: 6611291126619990813}
   m_Layer: 0
   m_Name: ui_ground_block@3x (16)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1805,7 +1805,7 @@ GameObject:
   - component: {fileID: 6611291126935216679}
   m_Layer: 0
   m_Name: ui_ground_block@3x (13)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1914,7 +1914,7 @@ GameObject:
   - component: {fileID: 6611291126961618031}
   m_Layer: 0
   m_Name: ui_ground_block@3x (10)
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

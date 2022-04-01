@@ -11,6 +11,8 @@ public class BallColider : MonoBehaviour
     public float speed = 10f;
     float horizontalMove = 0;
 
+    public bool isJump;
+
     private void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * speed*Time.deltaTime;
@@ -20,7 +22,11 @@ public class BallColider : MonoBehaviour
 
             if (Input.GetButtonDown("Jump"))
             {
-                rb.AddForce(Vector2.up * force);
+                if (!isJump)
+                {
+                    rb.AddForce(Vector2.up * force);
+                    isJump = true;
+                }
             }
 
             if (!Input.anyKey)
@@ -41,6 +47,11 @@ public class BallColider : MonoBehaviour
             GameManagerAd.gm.Die();
             transform.position = new Vector3(-2.17f, -0.95f, 0);
         }
+
+        if (collision.gameObject.tag == "floor")
+        {
+            isJump = false;
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -55,7 +66,10 @@ public class BallColider : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if(collision.gameObject.tag=="coin")
+        {
+            GameManagerAd.gm.Score();
+        }
     }
 
 }

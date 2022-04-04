@@ -29,7 +29,7 @@ public class GameScene : MonoBehaviour
 
     public void Exit()
     {
-        Application.Quit();
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void ShowLives(int lives)

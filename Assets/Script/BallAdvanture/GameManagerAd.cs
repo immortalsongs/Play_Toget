@@ -6,6 +6,10 @@ public class GameManagerAd : MonoBehaviour
 {
     public static GameManagerAd gm;
 
+    const string CHECKPOINT_x = "Check point_x";
+    const string CHECKPOINT_y = "Check point_y";
+    const string CHECKPOINT_z = "Check point_z";
+
     int lives=3;
     float time;
     int score;
@@ -36,6 +40,7 @@ public class GameManagerAd : MonoBehaviour
     public void Die()
     {
         lives -= 1;
+        
     }
     public void Score()
     {
@@ -44,6 +49,19 @@ public class GameManagerAd : MonoBehaviour
     void OutofLive()
     {
         gameOverScene.SetActive(true);
-        Time.timeScale = 0;
+        BallColider.isDead = true;
+        //Time.timeScale = 0;
+    }
+
+    public void SetCheckPoint(Vector3 checkpoint)
+    {
+        PlayerPrefs.SetFloat(CHECKPOINT_x, checkpoint.x);
+        PlayerPrefs.SetFloat(CHECKPOINT_y, checkpoint.y);
+        PlayerPrefs.SetFloat(CHECKPOINT_z, checkpoint.z);
+    }
+    public Vector3 GetCheckPoint()
+    {
+        Vector3 checkpoint = new Vector3(PlayerPrefs.GetFloat(CHECKPOINT_x), PlayerPrefs.GetFloat(CHECKPOINT_y), PlayerPrefs.GetFloat(CHECKPOINT_z));
+        return checkpoint;
     }
 }

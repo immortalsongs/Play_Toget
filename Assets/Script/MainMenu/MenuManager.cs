@@ -27,6 +27,10 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("Ping Pong");
     }
+    public void BallAdvanture()
+    {
+        SceneManager.LoadScene("BallAdvanture");
+    }
     public void Exit()
     {
         Application.Quit();
